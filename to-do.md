@@ -8,6 +8,18 @@ Template from Bugzilla:
 | ID | Author | Product Version | Type | Cases | Runs | 
 |----|--------|-----------------|------|-------|------|
 
+Possible test plans types:
+- Acceptence
+- Function
+- Installation
+- Integration
+- Interoperability
+- Performance
+- Product
+- System
+- Unit
+
+
 ## Creating test cases
 
 2. [ ] Create test cases
@@ -49,3 +61,14 @@ TEST PLAN: "Login Form Testing"
 ├── TEST CASE 1: "Log in with correct password"
 ├── TEST CASE 2: "Log in with incorrect password"
 └── TEST CASE 3: "Leave password field empty"
+
+## Our task
+
+Based on task requierements needed test plans are:
+- Black box tests:
+  - Functionality tests - $>=10$ test cases
+  - Performance tests - $>=2$ test cases
+  - Installation tests - $2$ test cases, installation and deinstallation
+- White box tests:
+  - Compilation test
+  - Unit tests - $>=3$ test cases, automated tests
