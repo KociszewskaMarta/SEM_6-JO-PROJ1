@@ -3,11 +3,21 @@
 1. [ ] Create test plan
     *Product Dashboard -> Test Plans -> Create a new test plan*
 
+Template from Bugzilla:
+
+| ID | Author | Product Version | Type | Cases | Runs | 
+|----|--------|-----------------|------|-------|------|
+
 ## Creating test cases
 
 2. [ ] Create test cases
     *Product Dashboard -> Test Cases -> Create new test cases*
     Test cases need to be associated with the test plan created in step 1.
+
+Template from Bugzilla:
+
+| ID | Sort key | Summary | Default tester | Priority | Category | Component | Status |
+|----|----------|---------|----------------|----------|----------|-----------|--------|
 
 ## Adding build
 
