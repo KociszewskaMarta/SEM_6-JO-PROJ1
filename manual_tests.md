@@ -160,7 +160,6 @@ PASSED
 7. **Wielokrotne wstawianie strony**: Wstawienie strony z dokumentu A do dokumentu B, powtarzając to po określonej liczbie stron, docelowow B1 A B2 A B3 A...
 
 Summary: Wstawianie stron z dokumentu A (jednostronnego pliku) do dokumentu B (wielostronnego pliku) w określonych odstępach. Testowanie *negative path* - wprowadzenie niepoprawnych danych do pól tekstowych.
-
 Priority: Medium
 
 Setup procedures:
