@@ -38,6 +38,8 @@ Rezultat: `test_artefacts/functionality_test/test1-merging/test1-merging.pdf`
 
 PASSED
 
+---
+
 2. **Łączenie przemienne plików PDF**: Sprawdzenie, czy aplikacja poprawnie scala dwa lub więcej plików PDF w jeden dokument, przyjmując kolejność naturalną.
 
 Summary: Łączenie przemienne plików PDF w naturalnej kolejności
@@ -60,6 +62,8 @@ Użyte pliki: `sample_pdfs/sampleA.pdf`, `sample_pdfs/sampleB.pdf`
 Rezultat: `test_artefacts/functionality_test/test2-alternate-mix-natural/alternate-mix-natural.pdf`
     
 PASSED
+
+---
 
 3. **Łączenie przemienne plików PDF**: Sprawdzenie, czy aplikacja poprawnie scala dwa lub więcej plików PDF w jeden dokument, przyjmując kolejność odwrotną.
 
@@ -85,6 +89,8 @@ Rezultat: `test_artefacts/functionality_test/test3-alternate-mix-reversed/altern
 
 PASSED
 
+---
+
 4. **Wielokrotne wstawianie strony**: Wstawienie strony z dokumentu A do dokumentu B, powtarzając to po określonej liczbie stron, docelowow B1 A B2 A B3 A...
 
 Summary: Wstawianie strony z dokumentu A (jednostronnego pliku) do dokumentu B (wielostronnego pliku) w określonych odstępach
@@ -108,6 +114,8 @@ Użyte pliki: `sample_pdfs/sampleA.pdf`, `sample_pdfs/sampleC.pdf`
 Rezultat: `test_artefacts/functionality_test/test4-multi-insert-1/multi-insert-1.pdf`
 
 PASSED
+
+---
 
 5. **Wielokrotne wstawianie strony**: Wstawienie strony z dokumentu A do dokumentu B, powtarzając to po określonej liczbie stron, docelowow B1 A B2 A B3 A...
 
@@ -133,6 +141,8 @@ Rezultat: `test_artefacts/functionality_test/test5-multi-insert-2/multi-insert-2
 
 PASSED
 
+---
+
 6. **Wielokrotne wstawianie strony**: Wstawienie strony z dokumentu A do dokumentu B, powtarzając to po określonej liczbie stron, docelowow B1 A B2 A B3 A...
 
 Summary: Wstawianie wielu stron z dokumentu A (wielostronnego pliku) do dokumentu B (wielostronnego pliku) w określonych odstępach
@@ -156,6 +166,8 @@ Użyte pliki: `sample_pdfs/sampleA.pdf`, `sample_pdfs/sampleB.pdf`
 Rezultat: `test_artefacts/functionality_test/test6-multi-insert-3/multi-insert-3.pdf`
 
 PASSED
+
+---
 
 7. **Wielokrotne wstawianie strony**: Wstawienie strony z dokumentu A do dokumentu B, powtarzając to po określonej liczbie stron, docelowow B1 A B2 A B3 A...
 
@@ -187,6 +199,8 @@ BUG REPORT
 - Description: W przypadku wprowadzenia zakresu stron, który wykracza poza liczbę stron w dokumencie, program powinien zablokować wykonanie zadania i wyświetlić czytelny komunikat o błędzie (np. "Zakres stron wykracza poza dokument"). Obecnie program pozwala na rozpoczęcie procesu. Po kliknięciu przycisku "Wykonaj" program wyświetla komunikat "Nie udało się". Po kliknięciu przycisku "Pokaż błędy" program wyświetla techniczne logi błędów, które nie są zrozumiałe dla przeciętnego użytkownika. Brak jasnego komunikatu o błędzie.
 - Expected behavior: Program powinien zablokować wykonanie zadania i wyświetlić czytelny komunikat o błędzie (np. "Zakres stron wykracza poza dokument") w przypadku wprowadzenia niepoprawnych danych do pól tekstowych.
 
+---
+
 8. **Podział PDF - Każda strona:**: Rozdzielenie pliku PDF na pojedyncze pliki jednostronicowe.
 
 Summary: Podział dokumentu PDF na pojedyncze strony (Every page)
@@ -210,6 +224,8 @@ Użyte pliki: `sample_pdfs/sampleA.pdf`
 Rezultat: `test_artefacts/functionality_test/test8-split-every-page/`
 
 PASSED
+
+---
 
 9. **Podział PDF - Numery stron**: Rozdzielenie pliku PDF na pliki PDF z według określonych numerów stron.
 
@@ -236,6 +252,8 @@ Rezultat: `test_artefacts/functionality_test/test9-split-page-numbers/`
 
 PASSED
 
+---
+
 10. **Podział PDF - N stron**: Rozdzielenie pliku PDF na pliki PDF po każdych 'n' stronach.
 
 Summary: Podział dokumentu PDF po każdych 'n' stronach..
@@ -260,6 +278,8 @@ Użyte pliki: `sample_pdfs/sampleA.pdf`
 Rezultat: `test_artefacts/functionality_test/test10-split-n-pages/`
 
 PASSED
+
+---
 
 11. **Podział PDF - Numery stron**: Rozdzielenie pliku PDF na pliki PDF z według określonych numerów stron.
 
