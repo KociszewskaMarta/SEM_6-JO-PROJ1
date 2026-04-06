@@ -18,6 +18,14 @@ def generate_pdf(_filename, _num_pages, _directory="sample_pdfs"):
 if __name__ == "__main__":
     # filename = "output.pdf"
     # num_pages = 5
-    filename=input("Enter the filename: ")+".pdf"
-    num_pages=int(input("Enter the number of pages: "))
-    generate_pdf(filename, num_pages)
+    choice=input("Do you want to generate multiple files? (y/n): ")
+    if choice.lower() == 'n':
+        filename = input("Enter the filename: ")
+        num_pages = int(input("Enter the number of pages: "))
+        generate_pdf(f"{filename}.pdf", num_pages)
+    else:
+        num_of_files=input("Enter the number of files to generate: ")
+        filename=input("Enter the filename: ")
+        num_pages=int(input("Enter the number of pages: "))
+        for i in range(int(num_of_files)):
+            generate_pdf(f"{filename}_{i}.pdf", num_pages)
