@@ -28,4 +28,4 @@ if __name__ == "__main__":
         filename=input("Enter the filename: ")
         num_pages=int(input("Enter the number of pages: "))
         for i in range(int(num_of_files)):
-            generate_pdf(f"{filename}_{i}.pdf", num_pages)
+            generate_pdf(f"{filename}_{i}.pdf", num_pages, _directory=f"sample_pdfs_{filename}")
