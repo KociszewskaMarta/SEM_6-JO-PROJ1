@@ -340,3 +340,7 @@ Setup procedures:
 
 Użyte pliki: `sample_pdfs_performance_test/`
 Rezultat: `test_artefacts/performance_test/test1/`
+
+PASSED
+
+Passed in 7 seconds but found some errors in logs
