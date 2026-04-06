@@ -11,4 +11,4 @@
 .idea/
 .idea
 # Performance test files (can be large)
-/sample_pdf_performance_test/
+/sample_pdfs_performance_test/
