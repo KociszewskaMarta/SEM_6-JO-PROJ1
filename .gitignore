@@ -10,3 +10,5 @@
 *.iml
 .idea/
 .idea
+# Performance test files (can be large)
+/sample_pdfs_performence_test/
