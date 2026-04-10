@@ -344,3 +344,24 @@ Rezultat: `test_artefacts/performance_test/test1/`
 PASSED
 
 Passed in 7 seconds but found some errors in logs
+
+### Test kompilacji
+
+1. **Kompilacja**
+
+Summary: Komipilacja projektu PDFsam Basic
+Priority: Highest
+
+Setup procedures:
+- Zainstalowano:
+  - Java JDK 21
+  - Maven 
+  - GNU gettext
+
+|Action|Expected result|
+|---|---|
+| Sprawdź czy zainstalowane są wszystkie wymagane narzędzia komendami `java --version`, `mvn --version`, `gettext --version`. Jeśli nie - zainstaluj je | Wszystkie narzędzia są zainstalowane |
+| Sklonuj repozytorium PDFsam Basic z GitHub komendą `git clone https://github.com/torakiki/pdfsam.git` | Repozytorium zostaje sklonowane na lokalną maszynę |
+| Wybierz katalog z sklonowanym repozytorium i przejdź do niego - `cd pdfsam` | Odpowiedni katalog jest wybrany |
+| Wybierz branch (gałąź), odpowiadającą wersji programu np. `git checkout v5.4.1` | Branch zostaje poprawnie wybrany, po wpisaniu komendy `git status` wyświetla się informacja o wybranej gałęzi |
+| Uruchom komendę `mvn clean package -Drelease -DskipTests` | Projekt jest kompilowany i instalowany. W terminalu pojawia się informacja o pozytywnym wyniku kompilacji - "BUILD SUCCESS" |
